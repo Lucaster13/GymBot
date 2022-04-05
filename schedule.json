@@ -1,4 +1,85 @@
 {
-    "empty": true
-    
+    "empty": false,
+    "Mon": {
+        "name": "Monday",
+        "availabilities": [
+            {
+                "fullTime": "1:0 pm - 3:0 pm",
+                "startTime": {
+                    "amPm": "pm",
+                    "hrs": 1,
+                    "mins": 0,
+                    "army": "13:00"
+                },
+                "endTime": {
+                    "amPm": "pm",
+                    "hrs": 3,
+                    "mins": 0,
+                    "army": "15:00"
+                }
+            },
+            {
+                "fullTime": "04:00 pm - 05:00 pm",
+                "startTime": {
+                    "amPm": "pm",
+                    "hrs": 4,
+                    "mins": 0,
+                    "army": "16:00"
+                },
+                "endTime": {
+                    "amPm": "pm",
+                    "hrs": 5,
+                    "mins": 0,
+                    "army": "17:00"
+                }
+            }
+        ],
+        "activeBooking": null
+    },
+    "Tues": {
+        "name": "Tuesday",
+        "availabilities": [
+            {
+                "fullTime": "10:00 am - 01:00 pm",
+                "startTime": {
+                    "amPm": "am",
+                    "hrs": 10,
+                    "mins": 0,
+                    "army": "10:00"
+                },
+                "endTime": {
+                    "amPm": "pm",
+                    "hrs": 1,
+                    "mins": 0,
+                    "army": "13:00"
+                }
+            }
+        ],
+        "activeBooking": null
+    },
+    "Wed": {
+        "name": "Wedday",
+        "availabilities": [],
+        "activeBooking": null
+    },
+    "Thurs": {
+        "name": "Thursday",
+        "availabilities": [],
+        "activeBooking": null
+    },
+    "Fri": {
+        "name": "Friday",
+        "availabilities": [],
+        "activeBooking": null
+    },
+    "Sat": {
+        "name": "Satday",
+        "availabilities": [],
+        "activeBooking": null
+    },
+    "Sun": {
+        "name": "Sunday",
+        "availabilities": [],
+        "activeBooking": null
+    }
 }
